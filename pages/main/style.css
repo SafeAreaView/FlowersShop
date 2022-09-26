@@ -1,0 +1,107 @@
+/* ROOT */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ROOT-END */
+
+/* FONTS */
+@font-face {
+    font-family: "Trocchi";
+    src: url("/assets/fonts/Trocchi-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* FONTS-END */
+
+/* MAIN-SITE-STYLES */
+.site-wrapper {
+    background: -webkit-linear-gradient(90deg, #9ec8ff, #85baff, #85baff);
+    background: linear-gradient(90deg, #9ec8ff, #85baff, #85baff);
+}
+
+.page--wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f6f3f1;
+}
+
+.header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #292933;
+}
+
+.header--telephone {
+    color: #292933;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px solid white;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.header--text {
+    font-family: 'Trocchi', sans-serif;
+
+}
+
+.header--telephone:hover {
+    border: 0px solid gray;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: #d0d0d6;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1% 0 1% 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navigation--item a {
+    color: #292933;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.navigation--item:hover a {
+    border: 0px solid gray;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: #d0d0d6;
+    padding: 5px 10px 5px 10px;
+}
+
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 190px);
+    justify-content: space-between;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+.item {
+    height: 200px;
+    background-color: #eee;
+}
+
+.card {
+    background-color: #ccc;
+    width: 700px;
+} */
+/* MAIN-SITE-STYLES-END */
