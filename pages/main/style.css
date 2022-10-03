@@ -87,21 +87,20 @@
     padding: 5px 10px 5px 10px;
 }
 
-/* .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 190px);
-    justify-content: space-between;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
+.wrap {
+    display: flex;
+    width: 100%;
 }
 
 .item {
-    height: 200px;
-    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25%;
+    height: 300px;
+    padding: 5px;
 }
 
-.card {
-    background-color: #ccc;
-    width: 700px;
-} */
 /* MAIN-SITE-STYLES-END */
