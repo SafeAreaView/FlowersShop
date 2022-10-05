@@ -147,4 +147,30 @@
     color: whitesmoke;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.footer--copyright {
+    font-size: 10px;
+}
+
+.footer--list {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer--list__item {
+    margin: 10px;
+}
+
+
+.footer--developed {
+    font-size: 10px;
+}
+
 /* MAIN-SITE-STYLES-END */
