@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* ROOT-END */
@@ -39,18 +40,9 @@
     color: #292933;
 }
 
-.header--telephone {
-    color: #292933;
-    text-decoration: none;
-    font-size: 20px;
-    border: 0px solid white;
-    padding: 5px;
-    transition: 0.5s;
-}
 
 .header--text {
     font-family: 'Trocchi', sans-serif;
-    margin-left: 150px;
 
 }
 
@@ -119,6 +111,10 @@
 .item:hover {
     background-color: #fff;
     transition: 0.3s;
+}
+
+.item--image {
+    width: 200px;
 }
 
 .item--name {
