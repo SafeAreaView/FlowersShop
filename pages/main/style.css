@@ -69,6 +69,7 @@
     transition: 0.5s;
     background-color: #d0d0d6;
     padding: 5px 10px 5px 10px;
+    cursor: pointer;
 }
 
 .wrap {
@@ -102,6 +103,7 @@
 .item:hover {
     background-color: #fff;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .item--image {
@@ -132,6 +134,7 @@
     background-color: #383846;
     transition: 0.5s;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 .footer {
@@ -168,10 +171,11 @@
     background-color: #383846;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .modal {
-    /* display: none; */
+    display: none;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -233,6 +237,7 @@
     background-color: #383846;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .form--title {
@@ -245,4 +250,5 @@
     border: 1px solid black;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
