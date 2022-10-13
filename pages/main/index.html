@@ -336,16 +336,16 @@
                 <div class="form-wrapper">
                     <label for="post-number">
                         <p class="form--title">Ваш номер</p>
-                        <input class="form--input" id="post-number" type="tel" name="telephone"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <input class="form--input" id="post-number" type="tel" name="telephone" data-rule="number"
+                            pattern="[0-9]{10,12}" required>
                     </label>
                     <label for="post-name">
                         <p class="form--title">Ваше ім'я</p>
-                        <input class="form--input" id="post-name" type="text" name="name" required>
+                        <input class="form--input" id="post-name" type="text" name="name" data-rule="name" required>
                     </label>
                     <label for="post-email">
                         <p class="form--title">Ваш e-mail</p>
-                        <input class="form--input" id="post-email" type="email" name="email" required>
+                        <input class="form--input" id="post-email" type="email" name="email" data-rule="email" required>
                     </label>
                     <label for="post-order">
                         <p class="form--title">Ваше замовлення</p>
